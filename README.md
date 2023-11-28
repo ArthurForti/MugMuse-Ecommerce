@@ -5,3 +5,6 @@ Esse projeto consiste em aperfeiçoar meus conhecimentos, irei criar uma loja pa
 React
 Vite
 Sass
+
+##
+Em breve farei deploy na Vercel.
