@@ -1,0 +1,48 @@
+.footer-container {
+    @include center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 35px;
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        &__social {
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    &__contact {
+        h2 {
+            @include titleSection;
+        }
+
+        address {
+            @include footerItems;
+        }
+    }
+
+    &__opening {
+        h2 {
+            @include titleSection;
+        }
+
+        span {
+            @include footerItems;
+        }
+    }
+
+    &__subscribe {
+        h2 {
+            @include titleSection;
+        }
+        input {
+            @include softInput;
+            border: 1px solid $default-text;
+            border-radius: 30px;
+        }
+    }
+    
+}
