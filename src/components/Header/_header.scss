@@ -1,11 +1,11 @@
 .navigation {
     @include center;
     justify-content: space-between;
-    padding: 20px 35px;
+    @include headerFooterMargin;
     
     &__options {
         @include center;
-        gap: 1rem;
+        gap: 3vw;
     
         a {
             li {

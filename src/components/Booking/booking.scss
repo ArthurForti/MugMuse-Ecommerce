@@ -12,13 +12,11 @@
         @include titleSection;
     }
     &__form {
-        width: 80vw;
-        max-width: 1024px;
+        @include sectionMargin;
         background: url("../../../src/assets/images/booking-bg.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        margin: 0 auto;
         border-radius: 10px;
         padding-top: 4vw;
 

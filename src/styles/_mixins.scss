@@ -42,3 +42,15 @@
     font-weight: 300;
     line-height: 1.8;
 }
+
+@mixin sectionMargin {
+    margin: 20px auto;
+    width: 80vw;
+    max-width: 1440px;
+}
+
+@mixin headerFooterMargin {
+    margin: 20px auto;
+    padding-inline: 6vw;
+    max-width: 1920px;
+}

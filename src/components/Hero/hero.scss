@@ -1,0 +1,48 @@
+.hero-container {
+    @include center;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1024px;
+    @include sectionMargin;
+    &__content {
+        h2 {
+            @include titleSection;
+            font-size: 26px;
+        }
+        p {
+            max-width: 80%;
+            font-weight: 300;
+        }
+        a {
+            transition: ease-out 2s;
+            :hover {
+                color: $default-text;
+                font-weight: 700;
+                padding-right: 5px;
+                margin-top: 2px;
+                border-bottom: 2px solid $coffe-color-light;
+                transition: ease-in .3s;
+                
+            }
+            @include center;
+            justify-content: flex-start;
+            gap: 5px;
+            span {
+                font-size: 15px;
+                color: $coffe-color-light;
+                font-weight: 600;
+            }
+            #hero-arrow {
+                color: $coffe-color-light;
+                margin-block: 16px;
+                font-size: 12px;
+            }
+        }
+    }
+    &__banner {
+        max-width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
