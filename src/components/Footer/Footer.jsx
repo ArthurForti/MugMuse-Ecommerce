@@ -22,16 +22,16 @@ const Footer = () => {
 
         <section className="footer-container__opening">
             <h2>Funcionamento</h2>
-            <span>Mon-Fri: 08:00 AM - 08:00 PM <br/>
-            Sat-Sun: 09:00 AM - 05:00 PM</span>
+            <span>Seg-Sex: 08:00 - 20:00 <br/>
+            Sab-Dom: 09:00 - 17:00</span>
         </section>
 
         <section className="footer-container__contact">
             <h2>Contate-nos</h2>
             <address>
-                123 Sip Street, United Brewland <br/>
-                CO 12345, Caféville <br/>
-                (555) 123-4567
+                Avenida Torra Escura, 123, Arabica <br/>
+                CEP: 12345-678, Cafélândia <br/>
+                (12) 3456-7890
             </address>
             <address>
                 <a href="mailto:info@mugmuse.com">info@mugmuse.com</a>
