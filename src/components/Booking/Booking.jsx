@@ -21,7 +21,7 @@ const Booking = () => {
   };
 
   return (
-    <div className="booking">
+    <div id="reservas" className="booking">
       <div className="booking__form">
         <h3>Reserva avançada</h3>
         <h2>Preencha e reserve</h2>

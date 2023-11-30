@@ -14,7 +14,7 @@ const header = () => {
               <a href="#">
                   <li>Sobre</li>
               </a>
-              <a href="#">
+              <a href="#reservas">
                   <li>Reservas</li>
               </a>
               <button>Compre um café</button>
