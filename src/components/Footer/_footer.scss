@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: flex-start;
     @include headerFooterMargin;
+    gap: 15px;
 
     &__main {
         display: flex;
@@ -14,19 +15,10 @@
         }
     }
 
-    &__contact {
-        h2 {
-            @include titleSection;
-        }
-
-        address {
-            @include footerItems;
-        }
-    }
-
     &__opening {
         h2 {
             @include titleSection;
+            font-size: 18px;
         }
 
         span {
@@ -34,9 +26,24 @@
         }
     }
 
-    &__subscribe {
+    &__contact {
+        white-space: nowrap;
         h2 {
             @include titleSection;
+            font-size: 18px;
+
+        }
+
+        address {
+            @include footerItems;
+        }
+    }
+
+    &__subscribe {
+        white-space: nowrap;
+        h2 {
+            @include titleSection;
+            font-size: 18px;
         }
         input {
             @include softInput;

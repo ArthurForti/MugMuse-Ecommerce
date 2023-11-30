@@ -7,7 +7,6 @@
     &__content {
         h2 {
             @include titleSection;
-            font-size: 26px;
         }
         p {
             max-width: 80%;
