@@ -3,3 +3,42 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin darkButton {
+    background-color: $default-text;
+    border-radius: 30px;
+    color: $light-text;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    transition: ease-out .3s;
+
+    &:hover {
+        background-color: $light-text;
+        border: 2px solid $default-text;
+        color: $default-text;
+        padding: 8px 18px;
+        transition: ease-in .3s;
+    }
+}
+
+@mixin titleSection {
+    font-size: 20px;
+    font-weight: 700;
+    margin-block: 20px;
+}
+
+@mixin softInput {
+    background-color: $light-text;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 15px;
+    width: 12vw;
+}
+
+@mixin footerItems {
+    font-size: 16px;
+    opacity: 50%;
+    font-weight: 300;
+    line-height: 1.8;
+}

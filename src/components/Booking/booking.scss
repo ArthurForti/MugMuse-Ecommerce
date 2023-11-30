@@ -1,0 +1,47 @@
+.booking {
+    @include center;
+    text-align: center;
+
+    h3 {
+        font-size: 18px;
+        color: $coffe-color-light;
+        font-weight: 500;
+    }
+
+    h2 {
+        @include titleSection;
+    }
+    &__form {
+        width: 80vw;
+        max-width: 1024px;
+        background: url("../../../src/assets/images/booking-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        border-radius: 10px;
+        padding-top: 4vw;
+
+        form {
+            @include center;
+            margin-top: 4vw;
+            gap: 25px;
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                label {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+                input {
+                    @include softInput;
+                }
+            }
+        }
+        button {
+            @include darkButton;
+            margin-block: 4vw;
+        }
+    }
+}
