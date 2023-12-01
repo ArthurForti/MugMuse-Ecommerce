@@ -1,8 +1,10 @@
+import logoMugMuse from '@images/logo-MugMuse.png';
+
 const Logo = () => {
   return (
     <a className="logo" href="#">
       <img
-        src="../../../src/assets/images/logo-MugMuse.svg"
+        src={logoMugMuse}
         alt="Logo MugMuse"
       />
       <span>Mug Muse</span>

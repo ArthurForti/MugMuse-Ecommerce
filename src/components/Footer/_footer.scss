@@ -4,6 +4,11 @@
     align-items: flex-start;
     @include headerFooterMargin;
     gap: 15px;
+    @include mobileDrop;
+        @media (max-width: 768px) {
+            z-index: -1;
+            position: relative;
+        }
 
     &__main {
         display: flex;

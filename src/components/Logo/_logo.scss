@@ -1,6 +1,7 @@
 .logo {
     @include center;
     gap: 5px;
+    z-index: 999;
 
     img {
         width: 45px;

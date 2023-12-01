@@ -13,12 +13,16 @@
     }
     &__form {
         @include sectionMargin;
-        background: url("../../../src/assets/images/booking-bg.jpg");
-        background-size: cover;
+        background: url('@images/booking-bg.jpg');
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 10px;
         padding-top: 4vw;
+        @media (max-width: 768px) {
+            background-size: 300%;
+            background-position: top left;
+        }
 
         form {
             @include center;

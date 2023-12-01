@@ -4,15 +4,28 @@
     width: 80vw;
     max-width: 1024px;
     @include sectionMargin;
+    @include mobileDrop;
     &__content {
         h2 {
             @include titleSection;
+            @media (max-width: 768px) {
+                font-size: 32px;
+            }
         }
         p {
             max-width: 80%;
             font-weight: 300;
+            @media (max-width: 768px) {
+                max-width: 100%;
+                font-size: 18px;
+            }
         }
         a {
+            @media (max-width: 768px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             transition: ease-out 2s;
             :hover {
                 color: $default-text;
@@ -40,6 +53,10 @@
     }
     &__banner {
         max-width: 50%;
+        @media (max-width: 768px) {
+            width: 100%;
+            max-width: 450px;
+        }
         img {
             width: 100%;
         }

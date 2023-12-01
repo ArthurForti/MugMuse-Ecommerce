@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 768px) {
+        text-align: center; 
+    }
 }
 
 @mixin darkButton {
@@ -47,10 +50,20 @@
     margin: 20px auto;
     width: 80vw;
     max-width: 1440px;
+    @media (max-width: 768px) {
+        margin: 15px auto;
+        width: 95%;
+    }
 }
 
 @mixin headerFooterMargin {
     margin: 20px auto;
     padding-inline: 6vw;
     max-width: 1920px;
+}
+
+@mixin mobileDrop {
+    @media (max-width: 768px) {
+            flex-direction: column;
+        }
 }
