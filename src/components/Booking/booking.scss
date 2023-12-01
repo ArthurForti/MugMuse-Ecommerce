@@ -14,20 +14,24 @@
     &__form {
         @include sectionMargin;
         background: url('@images/booking-bg.jpg');
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         border-radius: 10px;
         padding-top: 4vw;
         @media (max-width: 768px) {
-            background-size: 300%;
+            background-size: 170%;
             background-position: top left;
         }
 
         form {
             @include center;
             margin-top: 4vw;
-            gap: 25px;
+            gap: 2vw;
+            @media (max-width: 768px) {
+                gap: 7px;
+                
+            }
             div {
                 display: flex;
                 flex-direction: column;
@@ -38,6 +42,12 @@
                 }
                 input {
                     @include softInput;
+                    max-width: 150px;
+                    @media (max-width: 768px) {
+                        width: 23vw;
+                        
+                        padding: 7px 7px;
+                    }
                 }
             }
         }
