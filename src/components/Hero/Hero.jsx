@@ -1,4 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
+import heroBanner from '@images/hero-banner-1.png';
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             </a>
         </div>
         <div className="hero-container__banner">
-            <img src='@images/hero-banner-1.png' alt="" />
+        <img src={heroBanner} alt="Hero Banner" />
         </div>
     </section>
   )

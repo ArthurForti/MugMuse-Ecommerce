@@ -1,8 +1,7 @@
 import Header from './components/Header/Header';
-
+import Hero from './components/Hero/Hero';
 import Booking from './components/Booking/Booking';
 import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/hero';
 
 function App() {
   return (
