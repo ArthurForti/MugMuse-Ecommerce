@@ -7,4 +7,5 @@ Vite
 Sass
 
 ##
-Em breve farei deploy na Vercel.
+Deploy na vercel:
+https://mug-muse-ecommerce.vercel.app/
